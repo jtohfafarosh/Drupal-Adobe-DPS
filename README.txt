@@ -12,7 +12,14 @@ CONTENTS OF THIS FILE
 
 INTRODUCTION
 ------------
-The DPSBridge module converts selected articles into HTML stacks and then
+Herein you will find the now-deprecated DPSBridge module, which integrates 
+Drupal with Adobe DPS. This module is now at end of life as a new AdobeDPS 
+is being introduced to the market, and consequently a new and better DPSBridge 
+module has been created. You can find that in sandbox on drupal.org. 
+
+A note that you use this module at your own risk. It is no longer supported.
+
+This older DPSBridge module converts selected articles into HTML stacks and then
 uploads the articles directly to Adobe DPS Folio Producer by utilizing the Folio
 Producer APIs. In addition, DPSBridge compares each selected Drupal article with
 the version in the folio and indicates when the content is out of sync. An
@@ -69,11 +76,11 @@ INSTALLATION
 
 CONFIGURATION
 -------------
- * Configure user permissions in Administration » Content Authoring » DPS Bridge
+ * Configure user permissions in Administration Â» Content Authoring Â» DPS Bridge
    Configuration:
    - Configure the Adobe API Key and API Secret
    - Configure any of the 3 publishing platforms (Amazon, Android, Apple)
- * Configure user permissions in Administration » People » Permissions:
+ * Configure user permissions in Administration Â» People Â» Permissions:
  * A screencast "DPSBridge: Getting Started" i available here, which describes
    how to install, configure and use this module with Adobe DPS.
    http://youtu.be/PufG2DosTkU
@@ -82,13 +89,3 @@ TROUBLESHOOTING
 ---------------
  Drupal default memory limit issues (i.e. blank page when loading Drupal)
  Configure following:  php_value memory_limit 128M
-
-MAINTAINERS
------------
-Current maintainers:
- * Joozer Tohfafarosh (justy) - https://www.drupal.org/user/115811
-This project has been sponsored by:
- * DPCI
-   This project is maintained by staff at DPCI. For more information about this
-   module or for consulting and implementation support, please contact us
-   directly at (800) 818-2905 or http://www.databasepublish.com.
